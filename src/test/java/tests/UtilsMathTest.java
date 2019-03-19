@@ -29,13 +29,9 @@ public class UtilsMathTest {
 	}
 	
 	@Test
-	public void testAdditionInt1() throws Exception {
-		//assertEquals(4, 3);
+	public void testProduit() throws Exception {
+		assertEquals(new Long(6),mat.produit(new Long(2), new Long(3)));
 	}
-	@Test
-	public void testAdditionInt2() throws Exception {
-		//assertEquals(3,mat.additionInt(1, 4));
-		assertEquals(4, 4);
-	}
+	
 
 }

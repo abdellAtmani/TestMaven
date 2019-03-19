@@ -15,6 +15,9 @@ public class UtilsMath {
 	public Long addition(Long a, Long b) {
 		return a+b;
 	}
+	public Long produit(Long a, Long b) {
+		return a*b;
+	}
 	public int additionInt(int a, int b) {
 		return a+b;
 	}
