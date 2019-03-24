@@ -13,7 +13,7 @@ public class UtilsMath {
 		return (a+b)*2;
 	}
 	public Long addition(Long a, Long b) {
-		return a+b;
+		return a-b;
 	}
 	public Long produit(Long a, Long b) {
 		return a*b;
